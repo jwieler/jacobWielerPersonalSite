@@ -1,0 +1,107 @@
+body {
+  background-image: url("./img/blurbg.jpg");
+}
+p {
+  text-indent: 40px;
+}
+#nav {
+  background-color: #333;
+  font-family: 'Montserrat';
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  display: inline;
+  text-align: center;
+}
+#navInvis {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  width: 100%;
+  display: hidden;
+}
+#nav a {
+  color: white;
+  font-family: 'Montserrat';
+}
+#nav a:hover {
+  text-decoration: none;
+}
+#menu {
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Montserrat';
+  justify-content: center;
+  padding: 10px;
+  display: inline;
+}
+
+#testMenu a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+#testMenu a:active {
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+
+#imgMenu {
+  max-width: 25px;
+  float: right;
+  cursor: pointer;
+  z-index: 1;
+}
+#fb {
+  height: 35px;
+  cursor: pointer;
+}
+#insta {
+  height: 35px;
+  cursor: pointer;
+}
+#me {
+  float: left;
+  height: 35px;
+  cursor: pointer;
+}
+#github {
+  height: 35px;
+  cursor: pointer;
+}
+#footer {
+  text-align: center;
+  padding: 5px;
+}
+#container {
+  text-align: left;
+  max-width: 61.803398875%;
+  width: 61.803398875%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-family: 'Montserrat';
+}
+
+.menu {
+  position: fixed;
+  float: right;
+  display: none;
+  z-index: 2;
+  padding: 8px;
+  background-color: #333;
+  right: 0;
+}
+.menu a {
+  display: block;
+  color: white;
+}
+.show {
+  display: block;
+}
+.content {
+  padding: 16px;
+}
